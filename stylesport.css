@@ -1,0 +1,176 @@
+body{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+
+}
+
+
+heder {
+background-color: #FFFFFF ;
+height: 80px;
+width: 1600px;
+left: 0px;
+top: 0px;
+border-radius: 0px;
+
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+
+}
+a:hover{
+    text-decoration: underline;
+    }
+
+
+.logo-link {
+    color: #2196F3;
+}
+ 
+.logo-duo-list{
+    color: #000;
+}
+
+.blue{
+    color:#2196F3;   
+   }
+
+ .black{
+    color: #000;
+ }  
+ .main-section {
+    background-color: #2F303A;
+    height: 600px;
+    width: 1600px;
+    left: 0px;
+    top: 80px;
+    border-radius: 0px;
+    
+    }
+    
+    
+    .header-item {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    
+    }
+    header-tell {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+    }
+
+.button-basic{
+    
+color: #FFFFFF;
+height: 38px;
+width: 73px;
+left: 512px;
+top: 174px;
+border-radius:4px;
+border: #2196F3;
+background-color: #2196F3;
+   
+}
+
+.button-depend {
+color: #212121;
+background-repeat: ;
+height: 38px;
+width: 125px;
+left: 593px;
+top: 174px;
+border-radius: 4px;
+border:#F5F4FA ;
+background-color: #F5F4FA;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0.03em;
+text-align: center;
+
+}
+
+.project-main{
+color: #212121;
+font-family: Roboto;
+font-size: 18px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0.06em;
+text-align: left;
+
+}
+.text-description{
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0.03em;
+text-align: left;
+color: #757575;
+}
+
+
+
+    .footer{
+        background-color: #2F303A;
+    }
+    
+    .logo-link-footer{
+    color: #2196F3;
+    
+    }
+    
+    .logo-duo-footer-list{
+        color: #FFFFFF;
+    }
+    
+    .adress-footer{
+        font-style: normal;
+        font-size: 14 px;
+        font-family: Roboto;
+        color: #FFFFFF;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        text-align: left;
+          
+    }
+    
+    .footer-mail{
+    font-style: normal;
+    font-size: 14 px;
+    font-family: Roboto;
+    color: #FFFFFF;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-align: left;
+    }
+    
+    .footer-tell{
+    font-family: Roboto;
+    color: #FFFFFF;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-align: left;
+    
+    }
+    
+    
