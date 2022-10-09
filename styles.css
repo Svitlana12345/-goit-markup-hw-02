@@ -1,7 +1,7 @@
 body{
     font-family: "Roboto", sans-serif;
     font-style: normal;
-    font-size: 14 px;
+    font-size: 14px;
 }
 
 
@@ -35,7 +35,14 @@ a:hover{
 
 
 .logo-link {
-    color: #2196F3;
+color: #2196F3;
+font-family: Raleway;
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+
 }
  
 .logo-duo-list{
@@ -93,7 +100,7 @@ line-height: 1.86;
 letter-spacing: 0.06em;
 align-items: center;
 text-align: center;
-letter-spacing: 0.06 em;
+letter-spacing: 0.06em;
 color: #FFFFFF;
 height: 50px;
 width: 216px;
@@ -117,17 +124,17 @@ cursor: pointer;
 
 .top-title {
 position: absolute;
-width: 696 px;
-height: 120 px;
-left: 452 px;
-top: 280 px; 
+width: 696px;
+height: 120px;
+left: 452px;
+top: 280px; 
 font-family: Roboto;
 font-style: normal;
 font-weight: 900;
-font-size: 44 px;
-line-height: 60 px;
+font-size: 44px;
+line-height: 60px;
 text-align: center;
-letter-spacing: 0.06 em;
+letter-spacing: 0.06em;
 text-transform: uppercase;
 color: #FFFFFF;
 height: 120px;
@@ -246,6 +253,12 @@ color: #FFFFFF;
 
 .logo-link-footer{
 color: #2196F3;
+font-family: Raleway;
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
 
 }
 
@@ -255,7 +268,7 @@ color: #2196F3;
 
 .adress-footer{
     font-style: normal;
-    font-size: 14 px;
+    font-size: 14px;
     font-family: Roboto;
     color: #FFFFFF;
     font-weight: 400;
@@ -267,7 +280,7 @@ color: #2196F3;
 
 .footer-mail{
 font-style: normal;
-font-size: 14 px;
+font-size: 14px;
 font-family: Roboto;
 color: #FFFFFF;
 font-weight: 400;

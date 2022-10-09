@@ -7,12 +7,11 @@ body{
 
 
 heder {
-background-color: #FFFFFF ;
-height: 80px;
-width: 1600px;
-left: 0px;
-top: 0px;
-border-radius: 0px;
+    height: 160px;
+    width: 1600px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
 
 }
 
@@ -33,7 +32,13 @@ a:hover{
 
 
 .logo-link {
-    color: #2196F3;
+color: #2196F3;
+font-family: Raleway;
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
 }
  
 .logo-duo-list{
@@ -130,8 +135,13 @@ color: #757575;
     }
     
     .logo-link-footer{
-    color: #2196F3;
-    
+color: #2196F3;
+font-family: Raleway;
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
     }
     
     .logo-duo-footer-list{
