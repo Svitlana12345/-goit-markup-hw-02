@@ -22,6 +22,7 @@ border-radius: 0px;
 
 .link {
     text-decoration: none;
+    
 }
 
 
@@ -31,6 +32,7 @@ a{
 }
 a:hover{
     text-decoration: underline;
+    color: #2196F3;
     }
 
 
@@ -57,7 +59,7 @@ letter-spacing: 0.03em;
     color: #000;
  }  
  
-img {
+.foto {
 height: 294px;
 width: 370px;
 }
@@ -80,16 +82,32 @@ border-radius: 0px;
 
 
 .header-item {
+font-family: Roboto;
 font-weight: 500;
-line-height: 1.14;
+font-size: 14px;
+line-height: 16px;
 letter-spacing: 0.02em;
 
 }
-header-tell {
+.header-tell {
+font-family: Roboto;
+font-style: normal;
 font-weight: 500;
+font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: #757575;
+}
+
+
+.header-mail{
+    font-family: Roboto;
+    color: #2196F3;
+    font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 16px;
+   letter-spacing: 0.02em;
 }
 
 .header-btn {
@@ -153,7 +171,8 @@ border-radius: nullpx;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-align: left;
-color: #212121;     
+color: #212121; 
+text-transform: uppercase;    
 }
 
 .after-title {
@@ -282,7 +301,7 @@ letter-spacing: 0.03em;
 font-style: normal;
 font-size: 14px;
 font-family: Roboto;
-color: #FFFFFF;
+color: #757575;
 font-weight: 400;
 line-height: 1.71;
 letter-spacing: 0.03em;
@@ -291,7 +310,7 @@ text-align: left;
 
 .footer-tell{
 font-family: Roboto;
-color: #FFFFFF;
+color: #757575;
 font-style: normal;
 font-size: 14px;
 font-weight: 400;

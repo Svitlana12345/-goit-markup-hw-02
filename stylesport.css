@@ -24,11 +24,22 @@ heder {
 }
 a{
     text-decoration: none;
-
 }
+
 a:hover{
     text-decoration: underline;
+color:#2196F3 ;
     }
+
+button:hover{
+    text-decoration: underline;
+    color:#2196F3 ;
+}
+
+button:{
+    cursor: pointer;
+}
+
 
 
 .logo-link {
@@ -69,7 +80,7 @@ letter-spacing: 0.03em;
     letter-spacing: 0.02em;
     
     }
-    header-tell {
+    .header-tell {
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -161,26 +172,24 @@ letter-spacing: 0.03em;
     }
     
     .footer-mail{
-    font-style: normal;
-    font-size: 14 px;
-    font-family: Roboto;
-    color: #FFFFFF;
-    font-weight: 400;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    text-align: left;
-    }
-    
-    .footer-tell{
-    font-family: Roboto;
-    color: #FFFFFF;
-    font-style: normal;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    text-align: left;
-    
-    }
-    
-    
+        font-style: normal;
+        font-size: 14px;
+        font-family: Roboto;
+        color: #757575;
+        font-weight: 400;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        text-align: left;
+        }
+        
+        .footer-tell{
+        font-family: Roboto;
+        color: #757575;
+        font-style: normal;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        text-align: left;
+        
+        }
