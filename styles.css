@@ -17,20 +17,16 @@ button {
   cursor: pointer;
 }
 
-address {
+/* address {
   font-style: normal;
-}
+} */
 
 .header {
+  height: 80px;
+  border-bottom: 1px solid rgba(236, 236, 236, 1);
   background-color: #ffffff;
-  padding-top: 24px;
-  padding-bottom: 25px;
-  padding-right: 215px;
-  padding-left: 215px;
-  width: 1600px;
-  left: 0px;
-  top: 0px;
-  border-radius: 0px;
+  margin: auto;
+  display: flex;
 }
 
 .list {
@@ -59,9 +55,9 @@ address {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  display: inline-block;
+  margin: 0 auto;
+  /* margin-left: auto;
+  margin-right: auto; */
 }
 
 .header-navigation {
@@ -82,8 +78,9 @@ address {
 a {
   text-decoration: none;
 }
+
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
   color: #2196f3;
 }
 
@@ -97,9 +94,12 @@ a:hover {
   letter-spacing: 0.03em;
 }
 
+.all-logo {
+  margin-right: 93px;
+}
+
 .logo-duo-list {
   color: #000;
-  margin-right: 93px;
 }
 
 .blue {
@@ -116,6 +116,11 @@ a:hover {
   margin-right: 30px;
 }
 
+.foto-one {
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+
 .img-team {
   height: 260px;
   width: 270px;
@@ -126,11 +131,11 @@ a:hover {
   background-color: #2f303a;
   padding-top: 200px;
   padding-bottom: 200px;
-  padding-left: 452px;
-  padding-right: 452px;
-  margin-top: auto;
-  height: 600px;
-  width: 1600px;
+  /* padding-left: 452px;
+  padding-right: 452px; */
+  margin: auto;
+  /* height: 600px;
+  width: 1600px; */
 }
 
 .header-item {
@@ -169,14 +174,20 @@ a:hover {
   font-size: 16px;
   font-weight: 700;
   line-height: 1.86;
-  letter-spacing: 0.06em;
+  /* letter-spacing: 0.06em; */
   color: #ffffff;
   background-color: #2196f3;
   cursor: pointer;
   margin: 0 auto;
   display: block;
   margin-top: 160px;
-  margin-right: 750px;
+  /* margin-right: 750px; */
+  border-radius: 4px;
+  border-color: #2196f3;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 32px;
+  padding-left: 32px;
 }
 
 .benefits {
@@ -191,6 +202,7 @@ a:hover {
   display: flex;
   padding-right: 30px;
   justify-content: space-between;
+  gap: 30px;
 }
 
 .business {
@@ -204,13 +216,7 @@ a:hover {
 }
 
 .top-title {
-  position: absolute;
-  width: 696px;
-  height: 120px;
   left: 452px;
-  top: 280px;
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
@@ -218,18 +224,14 @@ a:hover {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-  height: 120px;
   width: 696px;
-  left: 452px;
-  top: 280px;
   border-radius: nullpx;
   margin: auto;
 }
 
 .team {
   background-color: #f5f4fa;
-  margin-left: 215px;
-  margin-right: 215px;
+  border-radius: 4px;
   padding-bottom: 94px;
 }
 .team-foto {
@@ -277,6 +279,8 @@ a:hover {
   letter-spacing: 0.03em;
   text-align: center;
   color: #212121;
+  padding-top: 94px;
+  border-radius: 4px;
 }
 
 .hero-title {
@@ -301,46 +305,8 @@ a:hover {
 
 .footer {
   background: #2f303a;
-  height: 252px;
-  width: 1600px;
-  left: 0px;
-  top: 2094px;
-  border-radius: 0px;
-}
-
-.list {
-  list-style: none;
-}
-
-.link {
-  text-decoration: none;
-}
-
-.footer-logo {
-  font-family: Raleway;
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 1.92;
-  letter-spacing: 0.03em;
-  text-align: left;
-  color: #2196f3;
-  text-decoration: none;
-
-  font-family: Oleo Script;
-  font-size: 26px;
-  font-weight: 400;
-  line-height: 1.38;
-  letter-spacing: 0.03em;
-  text-align: left;
-  color: #ffffff;
-}
-
-.footer {
-  background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
-  padding-left: 215px;
-  padding-right: 1154px;
   text-decoration: none;
 }
 
@@ -363,7 +329,7 @@ a:hover {
 
 .adress-footer {
   font-style: normal;
-  font-size: 14px;
+  font-size: 14 px;
   font-family: Roboto;
   color: #ffffff;
   font-weight: 400;
