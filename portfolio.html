@@ -15,28 +15,36 @@
 <body>
     
   <header class="header">
-    <div class="container"> 
-      <nav class="header-navigation">
-        <div class="all-logo"><a class="logo-link link" href="/index.html">Web<span class="logo-duo-list link">Studio</span></a>
+      <div class="container container-header">
+          <div class="all-logo">
+            <a class="logo-link link" href="/index.html"
+              >Web<span class="logo-duo-list link">Studio</span></a
+            >
           </div>
-      
+
           <nav class="menu">
             <ul class="header-list list">
-            <li> <a class="header-item blue" href="./index.html">Студія</li></a>  
-            <li> <a class="header-item black" href="./portfolio.html">Портфоліо</li></a>  
-            <li> <a class="header-item black"  href="/index.html">Контакти</li></a> 
-            
-          </ul> 
-        
-        
-        <div class="contacts">
-          <a class="header-mail" href="malito: info@devstudio.com "> info@devstudio.com</a>
-          <a class="header-tell black" href="tel:+38 096 111 11 11">+38 096 111 11 11</a>
-        </nav>
-      </nav>
+              <li><a class="header-item blue" href="/index.html">Студія</a></li>
+              <li><a class="header-item black" href="./portfolio.html">Портфоліо</a></li>
+              <li><a class="header-item black" href="/index.html">Контакти</a></li>
+            </ul>
+           
+             <ul class="connect">
+              <li><a class="header-connect" href="malito: info@devstudio.com">  <!--однаковий клас для посилань та один й той самий клас для іконок -->
+                <svg class="icon-connect" width="16" height="12">
+                  <use href="./images/icons.svg#icon-envelope-hover"></use>
+                </svg>
+                info@devstudio.com</a></li>
+             <li><a class="header-connect" href="tel:+38 096 111 11 11">
+                <svg class="icon-connect" width="10" height="16">
+                  <use href="./images/icons.svg#icon-vector"></use>
+                </svg>
+                +38 096 111 11 11</a
+              ></li>
+            </ul>
+          </nav>
       </div>
-    </div>
-           </header>
+    </header>
         
       <section>
 
@@ -103,7 +111,7 @@
       </li>
       
       <li class="link list">
-        <img src="../Go it/images 2/img (14).jpg" 
+        <img src="./images/img.jpg" 
         alt="чорний екран монітору">
         <div class="text">
           <h3 class="project-main">Inspiration has no Borders</h3>
@@ -148,18 +156,77 @@
         
     
             
-          <footer class="footer">
-    <div class="container">
-    <a class="logo-link-footer" href="/index.html">Web<span class="logo-duo-footer-list link">Studio</span></a>
-    <ul class="footer-list list" >
-   <li> <a class="adress-footer" href="/index.html"> м. Київ, пр-т Лесі Українки,26</a>  </li>
-       <li class="mail-footer"><a class="footer-mail link" href="malito: info@devstudio.com "> info@devstudio.com
-       </a></Li> 
-       <li class="tell-footer"><a class="footer-tell link" href="tel:+38 096 111 11 11">+38 096 111 11 11</a></li>
-     </ul>
-    </div>
- </footer>
-
-    
-  </body>
-</html>   
+      <footer class="footer">
+        <div class="container">
+        <a class="logo-link-footer" href="/index.html">Web<span class="logo-duo-footer-list link">Studio</span></a>
+        <ul class="footer-list list" >
+       <li> <a class="adress-footer" href="/index.html"> м. Київ, пр-т Лесі Українки,26</a>  </li>
+           <li class="mail-footer"><a class="footer-mail link" href="malito: info@devstudio.com "> info@devstudio.com
+           </a></Li> 
+           <li class="tell-footer"><a class="footer-tell link" href="tel:+38 096 111 11 11">+38 096 111 11 11</a></li>
+         </ul>
+        </div>
+        <div class="footer_social_networks">
+          <p class="footer_header">Приєднуйтесь</p>
+            <ul class="social_networks social_networks_footer">
+            <li class="social_networks_links_item">
+                <a href="#" class="social_networks_link">
+                    <svg
+                        class="social_networks_icon"
+                        width="20"
+                        height="20"
+                    >
+                        <use
+                            href="./images/icons.svg#icon-instagram"
+                        ></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="social_networks_links_item">
+                <a href="#" class="social_networks_link">
+                    <svg
+                        class="social_networks_icon"
+                        width="20"
+                        height="20"
+                    >
+                        <use
+                            href="./images/icons.svg#icon-twitter"
+                        ></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="social_networks_links_item">
+                <a href="#" class="social_networks_link">
+                    <svg
+                        class="social_networks_icon"
+                        width="20"
+                        height="20"
+                    >
+                        <use
+                            href="./images/icons.svg#icon-facebook"
+                        ></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="social_networks_links_item">
+                <a href="#" class="social_networks_link">
+                    <svg
+                        class="social_networks_icon"
+                        width="20"
+                        height="20"
+                    >
+                        <use
+                            href="./images/icons.svg#icon-linkedin"
+                        ></use>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+          
+      </div>
+      </footer>
+      
+        
+      </body>
+      </html>
+      
