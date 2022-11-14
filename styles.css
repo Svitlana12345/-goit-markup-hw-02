@@ -152,7 +152,10 @@ button {
   display: flex;
   align-items: center;
   margin-left: 200px;
+  fill: #757575;
 }
+
+
 
 a {
   text-decoration: none;
@@ -231,6 +234,7 @@ a:hover {
 .header-connect {
   color:rgba(117, 117, 117, 1);
  margin-right: 30px;
+
 }
 
 .header-connect:hover {
@@ -243,8 +247,10 @@ a:hover {
 
 .icon-connect {
   margin-right: 10px;
-  color: rgba(117, 117, 117, 1);
+ 
 }
+
+
 
 
 .main-btn {
@@ -280,38 +286,30 @@ a:hover {
   gap: 30px;
 }
 
-.benefits-item_icon-antenna{
+.benefits-item_icon-container{
   width: 270px;
   height: 120px;
-  background-image: url(./images/Group\ 1.jpg);
-
+  background-color: rgba(245, 244, 250, 1);
+border-radius: 4px;
+margin-bottom: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 
 
-.benefits-item_icon-clock{
-  width: 270px;
-  height: 120px;
-  background-image: url(./images/Group\ 2.jpg);
-
-}
-
-.benefits-item_icon-plan{
-  width: 270px;
-  height: 120px;
-  background-image: url(./images/Group\ 3.jpg);
-}
-
-.benefits-item_icon-technology{
-  width: 270px;
-  height: 120px;
-  background-image: url(./images/Group\ 4.jpg);
-}
 
 .box-shadow {
+  border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
+  
+
+  
 }
+
+
 .business {
   padding-bottom: 94px;
 }
@@ -389,6 +387,7 @@ ul.social_networks.social_networks_footer {
 }
 .social_networks_link:hover {
   background-color: var(--blue);
+
 }
 .social_networks_link:hover .social_networks_icon {
   fill: var(--white);
@@ -424,6 +423,7 @@ ul.social_networks.social_networks_footer {
   text-align: left;
   color: var(--darkest-gray);
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .after-title {
@@ -443,6 +443,7 @@ ul.social_networks.social_networks_footer {
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--darkest-gray);
+  margin-bottom: 50px;
 }
 
 .hero-top-title {
@@ -453,6 +454,7 @@ ul.social_networks.social_networks_footer {
   text-align: center;
   color: var(--darkest-gray);
   border-radius: 4px;
+  margin-bottom: 50px;
 }
 
 .hero-title {
@@ -488,6 +490,9 @@ ul.social_networks.social_networks_footer {
   display: flex;
   align-items: center;
   list-style-type: none;
+ 
+  
+
 }
 .clients__item:not(:last-of-type){
   margin-right: 30px;
@@ -497,49 +502,18 @@ ul.social_networks.social_networks_footer {
 
 
 
-.first-icon{
-  background-image: url(./images/group-min.svg);
+.clients__item{
+
  background-repeat: no-repeat;
  background-position: 50% 50%;
+ fill: var(--gray);
+ 
   
 }
 
 
 
-.second-icon{
-  background-image: url(./images/group\ \(1\)-min.svg);
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-}
 
-.second-icon:hover{
-  fill:var(--blue);
-  }
-
-.third-icon{
-  background-image: url(./images/group\ \(2\)-min.svg);
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-}
-
-
-.fourth-icon{
-  background-image: url(./images/group\ \(3\)-min.svg);
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-}
-
-.fifth-icon{
-  background-image: url(./images/group\ \(4\)-min.svg);
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-}
-
-.sixth-icon{
-  background-image: url(./images/group\ \(5\)-min.svg);
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-}
 
 
 
@@ -549,6 +523,7 @@ ul.social_networks.social_networks_footer {
   padding-top: 94px;
   margin-left: auto;
   margin-right: auto;
+
 
 }
 
@@ -562,6 +537,8 @@ ul.social_networks.social_networks_footer {
   display: flex;
   justify-content: center;
   align-items: center;
+fill: rgba(175, 177, 184, 1);;
+
 }
 .clients__link:hover {
   border: 1px var(--blue) solid;
@@ -574,6 +551,11 @@ fill:var(--blue);
 }
 .clients__link:focus .clients__icon {
   fill: var(--blue);
+}
+
+
+.clients__list {
+  color: rgba(117, 117, 117, 1);
 }
 
 

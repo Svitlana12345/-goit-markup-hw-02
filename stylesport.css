@@ -43,9 +43,7 @@ ul {
   box-sizing: border-box;
 }
 
-img {
-  display: block;
-}
+
 
 .visually-hidden {
   position: absolute;
@@ -61,6 +59,8 @@ img {
   overflow: hidden;
 }
 
+
+
 .button {
   cursor: pointer;
 }
@@ -71,6 +71,7 @@ img {
   background-color: var(--white);
   margin: auto;
   display: flex;
+ align-items: center;
 }
 
 .container {
@@ -84,6 +85,7 @@ img {
   display: flex;
   align-items: center;
   margin-left: 200px;
+  fill: #757575;
 }
 
 
@@ -110,9 +112,13 @@ img {
   display: flex;
 }
 
+
+
+
 .header-list {
   display: flex;
-  align-items: center;
+ 
+  
 }
 
 a {
@@ -188,25 +194,6 @@ button: {
 }
 
 
-.header-mail_icon::before{
-  display: inline-block;
-  content: "";
-  background-image: url(./images/envelope\ \(hover\).svg);
-  width: 16px;
-  height: 12px;
-  margin-left: 200px;
-}
-
-
-
-.header-tell_icon::before {
-  display: inline-block;
-  content: "";
-  background-image: url(./images/Vector\ \(7\).png);
-  width: 10px;
-  height: 16px;
-margin-right: 10px;
-}
 
 
 
@@ -220,14 +207,7 @@ margin-right: 50px;
 }
 
 
-header-mail_icon::before{
-  display: inline-block;
-  content: "";
-  background-image: url(./images/envelope\ \(hover\).svg);
-  width: 16px;
-  height: 12px;
-  margin-left: 200px;
-}
+
 
 
 .header-list {
@@ -268,7 +248,10 @@ header-mail_icon::before{
   letter-spacing: 0.06em;
   text-align: left;
   border: var(--gray);
+
 }
+
+
 
 .project-list {
   display: flex;
@@ -276,6 +259,28 @@ header-mail_icon::before{
   flex-wrap: wrap;
   padding-bottom: 94px;
 }
+
+
+img {
+  display: block;
+}
+
+
+
+
+
+.card-clients:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.card-clients:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+
+
+
+
 
 .text-description {
   color: var(--gray);
