@@ -384,6 +384,7 @@ ul.social_networks.social_networks_footer {
   text-decoration: none;
   justify-content: center;
   align-items: center;
+  margin-top: 16px;
 
 }
 .social_networks_link:hover {
@@ -403,6 +404,7 @@ ul.social_networks.social_networks_footer {
 
 .social_networks_icon {
   fill: var(--gray-2);
+
    
 }
 
@@ -476,8 +478,7 @@ ul.social_networks.social_networks_footer {
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--gray);
-  margin: 0;
-  margin-bottom: 16 px;
+ 
 }
 
 .text {
