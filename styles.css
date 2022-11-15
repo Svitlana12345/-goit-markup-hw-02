@@ -301,10 +301,11 @@ align-items: center;
 
 
 .box-shadow {
+  background-color: #fff;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
-  
+ 
 
   
 }
@@ -335,7 +336,7 @@ align-items: center;
 }
 
 .team {
-  background-color: var(--light-gray);
+  background-color: rgba(245, 244, 250, 1);;
   padding-bottom: 94px;
   padding-top: 94px;
 }
@@ -476,6 +477,7 @@ ul.social_networks.social_networks_footer {
   text-align: center;
   color: var(--gray);
   margin: 0;
+  margin-bottom: 16 px;
 }
 
 .text {
