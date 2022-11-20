@@ -303,6 +303,11 @@ margin-right: 50px;
 }
 
 
+.card-clients {
+
+}
+
+
 img {
   display: block;
 }
@@ -326,8 +331,8 @@ img {
 }
 
 .portfolio_img_container {
-  position: relative;
-    overflow: hidden;
+position: relative;
+overflow: hidden;
 
 }.portfolio_link:hover .portfolio_description {
   transform: translateY(0);

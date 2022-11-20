@@ -244,10 +244,14 @@ a {
   text-decoration: none;
 }
 
+
+
 a:hover {
   text-decoration: none;
   color: var(--blue);
 }
+
+
 
 .logo-link {
   color: var(--blue);
@@ -333,24 +337,23 @@ position: relative;
 
 
 .header-connect {
-  color:rgba(117, 117, 117, 1);
+color:rgba(117, 117, 117, 1);
  margin-right: 30px;
 display: flex;
 align-items: center;
 font-weight: 500;
-transition-property: fill;
+transition-property: color;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 transition-duration: 250ms;
 }
 
-.header-connect:hover {
-  fill: var(--blue);
-  color: #2196f3;
-}
 
-.header-connect .icon-connect:hover {
+.icon-connect:hover {
   fill: var(--blue);
   color: #2196f3;
+  transition-property: fill;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
 }
 
 .icon-connect {
@@ -400,9 +403,8 @@ transition-duration: 250ms;
 }
 
 .benefits-item_icon-container{
-  width: 270px;
-  height: 120px;
-  background-color: rgba(245, 244, 250, 1);
+height: 120px;
+background-color: rgba(245, 244, 250, 1);
 border-radius: 4px;
 margin-bottom: 30px;
 display: flex;
@@ -479,8 +481,7 @@ align-items: center;
   
 }
 .social_networks_links_item {
-  width: 44px;
-  height: 44px;
+
   margin-right: 10px;
   transition-property: background-color;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -492,8 +493,8 @@ align-items: center;
 
 
 .social_networks_link {
-  width: 100%;
-  height: 100%;
+  width: 44px;
+  height: 44px;
   display: flex;
   border-radius: 100%;
   text-decoration: none;
@@ -696,6 +697,14 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 transition-duration: 250ms;
 
 }
+
+.clients__icon {
+    fill: rgba(175, 177, 184, 1);
+    transition-property: fill;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+}
+
 .clients__link:hover {
   border: 1px var(--blue) solid;
 }
