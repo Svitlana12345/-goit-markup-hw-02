@@ -18,43 +18,65 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
       integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
       crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+      referrerpolicy="no-referrer"/>
+   <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <header class="header">
-      <div class="container container-header">
-          <div class="all-logo">
-            <a class="logo-link link" href="/index.html"
-              >Web<span class="logo-duo-list link">Studio</span></a
-            >
-          </div>
-
-          <nav class="menu">
-            <ul class="header-list list">
-              <li><a class="header-item current blue" href="./index.html">Студія</a></li>
-              <li><a class="header-item black" href="./portfolio.html">Портфоліо</a></li>
-              <li><a class="header-item black" href="/index.html">Контакти</a></li>
-            </ul>
-           
-             <ul class="connect">
-              <li><a class="header-connect" href="malito: info@devstudio.com">  <!--однаковий клас для посилань та один й той самий клас для іконок -->
-                <svg class="icon-connect" width="16" height="12">
-                  <use href="./images/icons.svg#icon-envelope-hover"></use>
-                </svg>
-                info@devstudio.com</a>
-              </li>
-             <li><a class="header-connect" href="tel:+38 096 111 11 11">
-                <svg class="icon-connect" width="10" height="16">
-                  <use href="./images/icons.svg#icon-vector"></use>
-                </svg>
-                +38 096 111 11 11</a>
-              </li>
-            </ul>
-          </nav>
-      </div>
-    </header>
+     <header class="header">
+            <div class="container container_header">
+                <nav class="navigation">
+                    <a class="logo" href="#">
+                        <span class="logo__text logo__text_blue">Web</span>
+                        <span class="logo__text">Studio</span>
+                    </a>
+                    <ul class="navigation__list">
+                        <li class="navigation__item  navigation__item_active">
+                            <a href="./index.html" class="navigation__link">
+                                Студія
+                            </a>
+                        </li>
+                        <li class="navigation__item">
+                            <a href="./portfolio.html" class="navigation__link">
+                                Портфоліо
+                            </a>
+                        </li>
+                        <li class="navigation__item">
+                            <a href="#" class="navigation__link"> Контакти </a>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="contacts">
+                    <li class="contacts__item">
+                        <a
+                            href="mailto:info@devstudio.com"
+                            class="contacts__link"
+                        >
+                            <svg class="contacts__icon" width="16" height="12">
+                                <use
+                                    href="./images/icons.svg#icon-envelope-hover"
+                                ></use>
+                            </svg>
+                            info@devstudio.com</a
+                        >
+                    </li>
+                    <li class="contacts__item">
+                        <a href="tel:+380961111111" class="contacts__link">
+                            <svg class="contacts__icon" width="10" height="16">
+                                <use
+                                    href="./images/icons.svg#icon-vector"
+                                ></use>
+                            </svg>
+                            +38 096 111 11 11</a
+                        >
+                    </li>
+                </ul>
+            </div>
+        </header>
+        
+      <section>
   
     <main>
       <section class="main-section">
@@ -509,13 +531,66 @@
         </footer>
 
     <!--modal window-->
+
         <div class="backdrop is-hidden" data-modal>
             <div class="modal">
-                <button class="close-modal-btn" type="button" data-modal-close>
+                <button class="close-modal-btn animate__animated animate__fadeIn" type="button" data-modal-close>
                     <svg width="18" height="18" class="close-icon">
                         <use href="./images/icons.svg#icon-close-black"></use>
                     </svg>
                 </button>
+                <form autocomplete="on" name="client-form" class="client-modal-form">
+                  <h3 class="modal-main">Залиште свої данні, ми вам передзвонимо</h3>
+                  <label class="modal-form">
+                    <span class="modal-form-name">Ім'я</span>
+                    <div class="modal-form-wrap">
+                      <input type="text" class="modal-form-imput" name="usename">
+                      <svg width="18" height="18" class="modal-form-input-icon">
+                                <use href="./images/icons.svg#icon-person-black"></use>
+                            </svg>
+                    </div>
+                  </label>
+
+                  <label class="modal-form">
+                    <span class="modal-form-name">Телефон</span>
+                    <div class="modal-form-wrap">
+                      <input type="tell" class="modal-form-imput" name="userphone">
+                      <svg width="18" height="18" class="modal-form-input-icon">
+                                <use href="./images/icons.svg#icon-phone-black"></use>
+                            </svg>
+                    </div>
+                  </label>
+                  <label class="modal-form">
+                    <span class="modal-form-name">Пошта</span>
+                    <div class="modal-form-wrap">
+                      <input type="mail" class="modal-form-imput" name="usermail">
+                      <svg width="18" height="18" class="modal-form-input-icon">
+                                <use href="./images/icons.svg#icon-email-black"></use>
+                            </svg>
+                    </div>
+                  </label>
+
+                  <label class="modal-form">
+                    <span class="modal-form-name">Коментар</span>
+                    <div class="modal-form-wrap">
+                      <textarea class="modal-form-feedback" name="usfeedback" rows="10" placeholder="Введіть текст"></textarea> 
+                    </div>
+                  </label>
+                   <label class="modal-agree">
+                        <input type="checkbox" class="checkbox hidden" value="accept-policy" name="user-agreement">
+                        <svg class="checkbox-icon" width="16" height="15">
+                            <use class="checkbox-icon-off" href="./images/icons.svg#icon-cub"></use>
+                            <use class="checkbox-icon-check" href="./images/icons.svg#icon-icon-check"></use>
+                          </svg>
+                        <span class="modal-agree-text">
+                            Погоджуюся з розсилкою та приймаю
+                            <a href="#" class="modal-agree-link">Умови договору</a>
+                        </span>
+                    </label>
+                </form>
+                <button class="modal-submit-btn" type="submit">
+                    Відправити
+                </button> 
             </div>
             </div>
    <script src="./JS/JS/modal.js"></script>
