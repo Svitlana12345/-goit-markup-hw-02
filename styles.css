@@ -471,22 +471,23 @@ a:hover {
   display: block;
 }
 
-.main-section {
-  background-color: var(--dark-gray);
-  padding-top: 200px;
-  padding-bottom: 200px;
-  margin: auto;
+.hero {
   background: linear-gradient(
       to right,
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url("./images/Img\ \(18\).jpg");
-  max-width: 1600px;
+    url("./images/Img\ 18.jpg");
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
+  background-color: #2f303a;
+  padding: 200px 0;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
 .logo__text {
@@ -609,7 +610,7 @@ a:hover {
   transition-property: fill;
 }
 
-.main-btn {
+.hero__button {
   font-family: inherit;
   font-size: 16px;
   font-weight: 700;
@@ -665,7 +666,7 @@ a:hover {
   position: relative;
 }
 
-.top-title {
+.hero__title {
   left: 452px;
   font-weight: 900;
   font-size: 44px;
@@ -753,7 +754,7 @@ a:hover {
   width: 20px;
 }
 
-.medium-title {
+.benefits-main__item-title {
   font-family: Roboto;
   font-size: 14px;
   font-weight: 700;
@@ -765,7 +766,7 @@ a:hover {
   margin-bottom: 10px;
 }
 
-.after-title {
+.benefits-main__after-title {
   font-size: 14px;
   font-weight: 400;
   line-height: 1.71;
