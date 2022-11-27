@@ -13,11 +13,12 @@
     top: 8px;
     right: 8px;
     padding: 0;
+
+    &:hover .close-icon {
+            fill: var(--blue);
+        }
 }
 
-.close-modal-btn:hover .close-icon {
-    fill: var(--blue);
-}
 
 .modal-submit-btn {
     display: flex;
@@ -59,12 +60,18 @@
 
 .button {
     cursor: pointer;
-}
 
-button:hover {
+    &:hover {
     color: white;
     background-color: var(--blue);
+        }
+    
+    &:focus {
+    background-color: var(--blue);
+    }
 }
+
+
 
 .button-flex {
     display: flex;

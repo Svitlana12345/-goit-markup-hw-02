@@ -1,45 +1,47 @@
 .contacts {
     margin-left: auto;
     display: flex;
+
+    &__link {
+            text-decoration: none;
+            font-weight: 500;
+            line-height: 1.14;
+            letter-spacing: 0.02em;
+            color: var(--gray);
+            display: flex;
+            align-items: center;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-duration: 250ms;
+            transition-property: color;
+        }
+
+     &__item:not(:last-child) {
+            margin-right: 50px;
+                }
+        
+    &__item:hover .contacts__link {
+            color: var(--blue);
+                }
+        
+    &__item:hover .contacts__icon {
+            fill: var(--blue);
+                }
+        
+    &__item:focus .contacts__link {
+            color: var(--blue);
+                }
+        
+     &__item:focus .contacts__icon {
+            fill: var(--blue);
+                }
+        
+        
+    &__icon {
+            margin-right: 10px;
+            fill: var(--gray);
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-duration: 250ms;
+            transition-property: fill;
+                }
 }
 
-.contacts__item:not(:last-child) {
-    margin-right: 50px;
-}
-
-.contacts__item:hover .contacts__link {
-    color: var(--blue);
-}
-
-.contacts__item:hover .contacts__icon {
-    fill: var(--blue);
-}
-
-.contacts__item:focus .contacts__link {
-    color: var(--blue);
-}
-
-.contacts__item:focus .contacts__icon {
-    fill: var(--blue);
-}
-
-.contacts__link {
-    text-decoration: none;
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--gray);
-    display: flex;
-    align-items: center;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: 250ms;
-    transition-property: color;
-}
-
-.contacts__icon {
-    margin-right: 10px;
-    fill: var(--gray);
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: 250ms;
-    transition-property: fill;
-}

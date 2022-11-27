@@ -1,11 +1,14 @@
 .about_images_item {
     margin-left: 30px;
     position: relative;
+
+
+ &:first-of-type {
+            margin-left: 0;
+        }
 }
 
-.about_images_item:first-of-type {
-    margin-left: 0;
-}
+
 
 .about_images_text {
     background-color: rgba(47, 48, 58, 0.8);

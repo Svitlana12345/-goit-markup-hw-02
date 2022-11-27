@@ -9,8 +9,9 @@
 .header {
     width: 100%;
     border-bottom: 1px solid var(--lighest-gray);
+
+    & .logo {
+        margin-right: 93px;
+        }
 }
 
-.header .logo {
-    margin-right: 93px;
-}
