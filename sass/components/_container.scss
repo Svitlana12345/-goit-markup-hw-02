@@ -1,0 +1,26 @@
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container_header {
+    display: flex;
+    align-items: center;
+    padding: 24px 0 25px 0;
+}
+
+.container_footer {
+    display: flex;
+    align-items: baseline;
+}
+
+.container_clients {
+    text-align: center;
+    height: 372px;
+    padding-top: 94px;
+    margin-left: auto;
+    margin-right: auto;
+}
