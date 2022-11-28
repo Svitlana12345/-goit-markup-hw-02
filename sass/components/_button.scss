@@ -14,11 +14,13 @@
     right: 8px;
     padding: 0;
 
-    &:hover .close-icon {
-            fill: var(--blue);
-        }
+  &:hover .close-icon {
+        fill: var(--blue);
+    }
+   
 }
 
+ 
 
 .modal-submit-btn {
     display: flex;
